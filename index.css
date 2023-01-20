@@ -1,0 +1,36 @@
+body {
+  background-color:skyblue;
+  font-family: cursive;
+}
+img{
+  width:150px;
+  height:150px;
+  border-radius:70%;
+}
+button{
+  background-color:blue;
+  color:red;
+  font-family: monospace;
+  border:groove yellow 5px;
+  border-radius:50px; 
+  cursor:pointer;
+  padding:30px;
+}
+button:hover{
+  background-color:white;
+  color:pink;
+}
+.container{
+  background-color:rgb(18, 145, 41);
+  display:flex;
+  align-items:center;
+  margin-top:10px;
+  border-radius:50px; 
+}
+li{
+  font-size:35px;
+  color:azure;
+}
+.container:hover{
+  background-color:aquamarine;
+}
